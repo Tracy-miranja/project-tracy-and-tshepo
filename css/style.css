@@ -13,31 +13,42 @@
       display: none;
     }
   }
+  
   #welcome-section{
     height: 600px;
-    background-color: aqua;
+    background-color: #191a1a;
     max-width: 100%;
+    
   }
+     h1{
+       text-align:center;
+        color:white;
+        font-size: 30px;
+        
+    }
+    p{
+        font-style: oblique;
+    }
   #navbar {
-    display: inline-block;
     height: 100px;
     width: 100%;
-    background: maroon;
-    color:white;
+    background: hwb(0 5% 40%);
+    z-index: -1;
   }
-  
   ul{
     text-decoration: none;
-    list-style: none;
-    text-decoration-color: white;
-       
+    list-style: none;    
   }
   ul li{
     display: inline;
     float: right;
-    margin-right: 2rem;
-    margin-top: 12px;
-    font-size: 20px;
-    color:green;
-    
+    margin-right: 4rem;
+    margin-top: 29px;
+    font-size: 20px; 
+  }
+  ul a{
+    color: white;
+    font-size:24px;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
